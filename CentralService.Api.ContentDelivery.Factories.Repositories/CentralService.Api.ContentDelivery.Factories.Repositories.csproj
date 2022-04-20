@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CentralService.Api.ContentDelivery.Interfaces\CentralService.Api.ContentDelivery.Interfaces.csproj" />
+    <ProjectReference Include="..\CentralService.Api.ContentDelivery.Repository\CentralService.Api.ContentDelivery.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CentralService.Api.ContentDelivery.DTO\CentralService.Api.ContentDelivery.DTO.csproj" />
+    <ProjectReference Include="..\CentralService.Api.ContentDelivery.Factories.Repositories\CentralService.Api.ContentDelivery.Factories.Repositories.csproj" />
+    <ProjectReference Include="..\CentralService.Api.ContentDelivery.Interfaces\CentralService.Api.ContentDelivery.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
